@@ -20,7 +20,7 @@ function Cards() {
               text='ReClip - This app is Snapchat clone with a little twist'
               label='Project'
               path='/projects'
-              // link= 'https://superchat-b1dee.firebaseapp.com/'
+              link= 'https://superchat-b1dee.firebaseapp.com/'
             />
           </ul>
           <ul className='cards__items'>
