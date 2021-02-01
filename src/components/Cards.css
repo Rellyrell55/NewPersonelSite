@@ -69,7 +69,7 @@ h1 {
   background-color: #1f98f4;
   box-sizing: border-box;
 }
-/* .resume__item{
+.resume__item{
   position: absolute;
   top: 0;
   right: 0;
@@ -82,7 +82,7 @@ h1 {
   max-height: 100%;
   object-fit: scale-down;
   transition: all 0.2s linear;
-} */
+}
 .cards__item__img {
   position: absolute;
   top: 0;
