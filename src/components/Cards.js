@@ -40,7 +40,7 @@ function Cards() {
               src='images/Brickbreaker_pic.png'
               text='Brick Breaker - Ready to play classic game of Brick Breaker'
               label='Project'
-              path='/project'
+              //path='/project'
             />
           </ul>
         </div>
