@@ -10,13 +10,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src="images/Lets_chat_pic"
+              src="images/Lets_chat_pic.png"
               text='Lets Chat - An app that creates a global chatroom'
               label='Project'
               path='/projects'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/ReClip_pic.png'
               text='ReClip - This app is Snapchat clone with a little twist'
               label='Project'
               path='/projects'
@@ -24,7 +24,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src='images/weather_App_pic.png'
               text='Weather App - Pull the weather from any with simple search'
               label='Project'
               path='/project'
@@ -36,7 +36,7 @@ function Cards() {
               path='/resume'
             />
             <CardItem
-              src='images/img-8.jpg'
+              src='images/Brickbreaker_pic.png'
               text='Brick Breaker - Ready to play classic game of Brick Breaker'
               label='Project'
               path='/project'
