@@ -13,13 +13,14 @@ function Cards() {
               src="images/Lets_chat_pic.png"
               text='Lets Chat - An app that creates a global chatroom'
               label='Project'
-              path='/projects'
+              href='https://superchat-b1dee.firebaseapp.com/'
             />
             <CardItem
               src='images/ReClip_pic.png'
               text='ReClip - This app is Snapchat clone with a little twist'
               label='Project'
               path='/projects'
+              // link= 'https://superchat-b1dee.firebaseapp.com/'
             />
           </ul>
           <ul className='cards__items'>
