@@ -8,10 +8,9 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Want to email me? Put your email in.
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,43 +20,24 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Email</Button>
           </form>
         </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Us</h2>
+            <h2>Social Media</h2>
             
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>Linkedin</Link>
+            <Link to='/'>GitHub</Link>
           </div>
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Contact</h2>
+            <Link to='/contact'>Contact</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
         </div>
       </div>
       <section class='social-media'>
