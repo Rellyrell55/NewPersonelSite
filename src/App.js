@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Resume from './components/pages/Resume';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import FullResume from './components/pages/Full Resume';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/resume' component={Resume} />
           <Route path='/contact' component={Contact} />
+          <Route path='/fullresume' component={FullResume} />
         </Switch>
       </Router>
     </>

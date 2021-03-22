@@ -13,7 +13,7 @@ function Cards() {
               src="images/Lets_chat_pic.png"
               text='Lets Chat - An app that creates a global chatroom'
               label='Project'
-              href='https://superchat-b1dee.firebaseapp.com/'
+              path='/projects'
             />
             <CardItem
               src='images/ReClip_pic.png'

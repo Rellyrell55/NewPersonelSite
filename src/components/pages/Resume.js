@@ -7,7 +7,12 @@ export default function Resume() {
   return (
     <>
     <h1 className='resume'>Resume</h1>
-    <CardItem></CardItem>
+    <CardItem
+      src="./images/terrellResume.jpg"
+      text='Click for the Full Resume'
+      label='Resume'
+      path='/fullresume'
+    />
     <Footer/>
     </>
   )
